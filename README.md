@@ -2,20 +2,27 @@
 
 ### > Motivation：
 
-正交分頻多工(Orthogonal Frequency-Division Multiplexing , OFDM)被廣泛地運用在通訊系統中，利用將子載波互相正交使得不同carrier的訊號在頻寬上可以交疊而不互相干擾，相較於只使用single-carrier可以大量節省頻寬，藉此來提高throughput，並由於其narrowband的特性，可以使用較為簡單的one-tap equalizer來進行通道補償，有效的降低系統計算複雜度。
+正交分頻多工(Orthogonal Frequency-Division Multiplexing , OFDM) 
+
+被廣泛地運用在通訊系統中，利用將子載波互相正交使得不同 carrier 的訊號在頻寬上可以交疊而不互相干擾，
+相較於只使用 single-carrier 可以大量節省頻寬，藉此來提高throughput，並由於其 narrowband 的特性，
+可以使用較為簡單的 one-tap equalizer 來進行通道補償，有效的降低系統計算複雜度。
 
 ![image](https://user-images.githubusercontent.com/102524142/174599266-031b3a6c-852f-442a-858c-c50b011f02cd.png)
 
 ### > Problem Statement：
 
-在無線通訊系統中，訊號傳送出去可能會經由不同的路徑到達接收端，每一條路徑的長度以及衰退程度都不同，可能導致在同一時間點接收端會接收到不同傳送訊號經過不同程度衰退的總和，如何在這樣的情況下將傳送訊號還原回來便是我們所要解決的問題。
+在無線通訊系統中，訊號傳送出去可能會經由不同的路徑到達接收端，每一條路徑的長度以及衰退程度都不同，
+可能導致在同一時間點接收端會接收到不同傳送訊號經過不同程度衰退的總和，如何在這樣的情況下將傳送訊
+號還原回來便是我們所要解決的問題。
 
 ![image](https://user-images.githubusercontent.com/102524142/174599731-0d55d8b7-5141-48d4-a452-58ff461b25d4.png)
 
 ### > Project Scope
  #### 。System Architecture：
  
- 以下是我們這次的系統架構，這是一個end to end的OFDM無線通訊系統，在通道的部分除了多路徑之外會加入白高斯雜訊，我們會丟入多張32x32的灰階圖來進行測試，最後在接收端進行還原。
+ 以下是我們這次的系統架構，這是一個end to end的OFDM無線通訊系統，在通道的部分除了多路徑之外會加入白高斯雜訊，
+ 我們會丟入多張32x32的灰階圖來進行測試，最後在接收端進行還原。 
  
  ![image](https://user-images.githubusercontent.com/102524142/174599880-a740197d-dfab-4da7-938d-f461f42bd2c8.png)
 
