@@ -45,7 +45,7 @@ So in the below parts, we compare the performance difference between the functio
 
 After cloning the whole project, we can use the below command to perform the project and check the performance (you should first change your folder into myfix4_dataflow_final/) : 
 
- make run CSIM=1 CSYNTH=1 COSIM=1
+>make run CSIM=1 CSYNTH=1 COSIM=1
 
 1. Utilization :
 
