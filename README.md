@@ -33,9 +33,13 @@ In wireless communication system, multipath and fading noise are the two main pu
 ### > Simulation Results：
 #### 。SYNTH Results
 
+After cloning the whole project, we can use the below command to performthe project and check the performance : 
+
+make run CSIM=1 CSYNTH=1 COSIM=1
+
 1. Utilization :
 
-The tables below is the hardware resources utilization comparison between the system before and after optimization : 
+The tables below are the hardware resources utilization comparison between the system before and after optimization : 
 
  - With II Violation : 
  
@@ -47,7 +51,7 @@ The tables below is the hardware resources utilization comparison between the sy
 
 2. Latency : 
 
-下兩張表為CSYNTH後latency的比較，由於Tx和Rx的整體內部都是dataflow的形式，因此在CSYNTH階段無法看出Tx和Rx的latency。
+The tables below compares the difference of latency between the system before and after optimization. However, latency of dataflow in CSYNTH stage can't works, we should analysis the latency of Tx and Rx after COSIM done.
 
  - With II Violation : 
  
@@ -59,7 +63,7 @@ The tables below is the hardware resources utilization comparison between the sy
 
 #### 。COSIM Results
 
-下兩張表為COSIM後latency的比較，可以明顯地觀察到Tx和Rx端的latency下降非常多，代表dataflow有發揮它的功能。
+The tables below are the latency after COSIM, the latency of Tx and Rx reduce a lot after optimization, which means dataflow works.
 
 - With II Violation :
 
@@ -80,12 +84,11 @@ The tables below is the hardware resources utilization comparison between the sy
 
 ![image](https://user-images.githubusercontent.com/102524142/174609143-17006aba-022c-473c-af85-96b17e48beca.png)![image](https://user-images.githubusercontent.com/102524142/174609153-b5c00d34-04d5-4cb4-816e-afa95de9e7b9.png)
 
-input data size = 1064(~1024，接近一張32x32照片的大小)
+input data size = 1064(~1024, it close to the size of an 32x32 pixels picture)
 
 ![image](https://user-images.githubusercontent.com/102524142/174609290-e9df5780-bae5-4c08-8c37-853d17d56c08.png)
 
-經過優化後，Without II Violation的Emulation time跑得比With II Violation快。
-
+Obviously, we can found that after optimization the system without II Violation hava lower emulation time than the system with II Violation.
 
 
 
