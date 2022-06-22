@@ -34,11 +34,12 @@ In wireless communication system, multipath and fading noise are the two main pu
 
 (The whole system can be easily extended to other design through modified the parameters in myfix4_dataflow_final/src/data_path.hpp)
 
-### 。SYNTH Results
+### > Simulation Results：
+#### 。SYNTH Results
 
 1. Utilization :
 
-下兩張表分別為優化前後的硬體資源使用。
+The tables below is the hardware resources utilization comparison between the system before and after optimization : 
 
  - With II Violation : 
  
@@ -60,7 +61,7 @@ In wireless communication system, multipath and fading noise are the two main pu
 
 ![image](https://user-images.githubusercontent.com/102524142/174608820-2d6e1cb0-1800-4a0a-8641-c4972ea0654c.png)
 
-### 。COSIM Results
+#### 。COSIM Results
 
 下兩張表為COSIM後latency的比較，可以明顯地觀察到Tx和Rx端的latency下降非常多，代表dataflow有發揮它的功能。
 
@@ -73,7 +74,7 @@ In wireless communication system, multipath and fading noise are the two main pu
 ![image](https://user-images.githubusercontent.com/102524142/174608967-db85d0c6-71b3-4452-bb79-3b236b95f35e.png)
 
 
-### 。HW Emulation Results
+#### 。HW Emulation Results
 
   -  With II Violation :
   
