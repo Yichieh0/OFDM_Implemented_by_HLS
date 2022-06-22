@@ -120,6 +120,14 @@ Obviously, we can found that after optimization the system without II Violation 
 #### 。Error Rate Comparison
 ![image](https://user-images.githubusercontent.com/102524142/175021080-93ee1d97-8738-43d7-bd6d-479e5d4d9076.png)
 
+#### 。Throughput
+370.6449 frame/sec
+394.37K pixel/sec
+3.1549M bit/sec
+
+### >Conclusion
+In this project we successfully constructed the OFDM based communication system. And we also avoid all of the II violations in the system.
+
 
 
 
