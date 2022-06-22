@@ -18,9 +18,7 @@ In wireless communication system, multipath and fading noise are the two main pu
 
 ### > Project Scope
  #### 。System Architecture：
- 
- 以下是我們這次的系統架構，這是一個end to end的OFDM無線通訊系統，在通道的部分除了多路徑之外會加入白高斯雜訊，
- 我們會丟入多張32x32的灰階圖來進行測試，最後在接收端進行還原。 
+ The block diagram below is the architecture we used in this project : 
  
  ![image](https://user-images.githubusercontent.com/102524142/174599880-a740197d-dfab-4da7-938d-f461f42bd2c8.png)
 
