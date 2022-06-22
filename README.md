@@ -30,7 +30,8 @@ In wireless communication system, multipath and fading noise are the two main pu
 5. SNR : [10:5:30]
 6. Channel Model : Multipath (3-tap,6-tap) with Gaussian random
 7. Total Data Size : (32x32)x7=7168 pixels
-8. Platform : U50
+8. Platform : U50.
+(The whole system can be easily extend to other design )
 
 ### 。SYNTH Results
 
