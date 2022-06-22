@@ -41,7 +41,7 @@ The most important thing we should mentioned is that if we have a function call 
 So in the below parts, we compare the performance difference between the function calls in for loops and the for for loops inside the functions. 
 
 ### > Simulation Results：
-#### > Optimization Issues：
+#### 。Optimization Issues：
 The most important thing we should mentioned is that if we have a function call in a for loop, the tool will recreate the function structure every iterations, this will lead to worse II. Otherwise, we should also prevent to write or read the same stream or array (without array partition) at the same time.
 
 So in the below parts, we compared the performance difference between the function calls in for loops and the for for loops inside the functions. 
