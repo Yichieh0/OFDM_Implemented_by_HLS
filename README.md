@@ -2,7 +2,7 @@
 
 ### > Motivation：
 
-Orthogonal Frequency Division Multiplexing (OFDM) is a multiplexing technology which is widely used in 4G and 5G. The system utilize OFDM’s orthogonal property, which admit us to set subcarriers closer without interference in the frequency domain. Compared with single carrier system, we can transmit more data into same bandwidth. In this way, we can reach higher transmit rate. And due to its narrowband property, we can use a one-tap equalizer for channel compensation, which can reduce the complexity a lot. In this project, we tried to construct an end-to-end OFDM communication system by HLS.
+Orthogonal Frequency Division Multiplexing (OFDM) is a multiplexing technology which is widely used in 4G and 5G. The system utilizes OFDM’s orthogonal property, which admit us to set subcarriers closer without interference in the frequency domain. Compared with single carrier system, we can transmit more data into same bandwidth. In this way, we can reach higher transmit rate. And due to its narrowband property, we can use a one-tap equalizer for channel compensation, which can reduce the complexity a lot. In this project, we tried to construct an end-to-end OFDM communication system by HLS.
 
 ![image](https://user-images.githubusercontent.com/102524142/174599266-031b3a6c-852f-442a-858c-c50b011f02cd.png)
 
@@ -11,12 +11,18 @@ Orthogonal Frequency Division Multiplexing (OFDM) is a multiplexing technology w
 In wireless communication system, multipath and fading noise are the two main purposes we would like to solve. We can’t control how signal transmitted from transmitter to receiver in wireless system. Each path may arrived receiver through different channel fading gain and wastes different time. This may cause some difficulties for receiver to recover the transmit data. Due to the reason we mentioned, we tried to construct a system based on OFDM which have the ability to conquer all of the non-ideal effects.
 
 ![image](https://user-images.githubusercontent.com/102524142/174599731-0d55d8b7-5141-48d4-a452-58ff461b25d4.png)
+![image](https://user-images.githubusercontent.com/102524142/175022005-de31933d-6252-42e9-bb7f-302b77c8725e.png)
+
 
 ### > Project Scope
  #### 。System Architecture：
- The block diagram below is the architecture we used in this project : 
+ The block diagram below is the architecture we used in this project. We connected all the kernels through hls::stream type.
  
  ![image](https://user-images.githubusercontent.com/102524142/174599880-a740197d-dfab-4da7-938d-f461f42bd2c8.png)
+ 
+ And the picture below is the structure of the host program we used in this project. The detail of the top module is the structure we mentioned beforehand.
+ 
+![image](https://user-images.githubusercontent.com/102524142/175022728-59e2e728-ebb8-4882-98d4-0f26d91f2f41.png)
 
  #### 。Specification：
 1. FFT Size : 64 with SSR = 2
@@ -28,7 +34,7 @@ In wireless communication system, multipath and fading noise are the two main pu
 7. Total Data Size : (32x32)x7=7168 pixels
 8. Platform : U50
 
-(The whole system can be easily extended to other design through modified the parameters in myfix4_dataflow_final/src/data_path.hpp)
+(The whole system can be easily extended to other designs through modified the parameters in myfix4_dataflow_final/src/data_path.hpp)
 
 ### > Optimization Issues：
 The most important thing we should mentioned is that if we have a function call in a for loop, the tool will recreate the function structure every iterations, this will lead to worse II.
@@ -36,7 +42,7 @@ So in the below parts, we compare the performance difference between the functio
 
 ### > Simulation Results：
 #### > Optimization Issues：
-The most important thing we should mentioned is that if we have a function call in a for loop, the tool will recreate the function structure every iterations, this will lead to worse II.
+The most important thing we should mentioned is that if we have a function call in a for loop, the tool will recreate the function structure every iterations, this will lead to worse II. Otherwise, we should also prevent to write or read the same stream or array (without array partition) at the same time.
 
 So in the below parts, we compared the performance difference between the function calls in for loops and the for for loops inside the functions. 
 
