@@ -12,9 +12,7 @@
 
 ### > Problem Statement：
 
-在無線通訊系統中，訊號傳送出去可能會經由不同的路徑到達接收端，每一條路徑的長度以及衰退程度都不同，
-可能導致在同一時間點接收端會接收到不同傳送訊號經過不同程度衰退的總和，如何在這樣的情況下將傳送訊
-號還原回來便是我們所要解決的問題。
+In wireless communication system, multipath and fading noise are the two main purposes we would like to solve. We can’t control how signal transmitted from transmitter to receiver in wireless system. Each path may arrived receiver through different channel fading gain and wastes different time. This may cause some difficulties for receiver to recover the transmit data. Due to the reason we mentioned, we tried to construct a system based on OFDM which have the ability to conquer all the non-ideal effects
 
 ![image](https://user-images.githubusercontent.com/102524142/174599731-0d55d8b7-5141-48d4-a452-58ff461b25d4.png)
 
