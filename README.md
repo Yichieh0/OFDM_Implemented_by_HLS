@@ -30,6 +30,10 @@ In wireless communication system, multipath and fading noise are the two main pu
 
 (The whole system can be easily extended to other design through modified the parameters in myfix4_dataflow_final/src/data_path.hpp)
 
+### > Optimization Issues：
+The most important thing we should mentioned is that if we have a function call in a for loop, the tool will recreate the function structure every iterations, this will lead to worse II.
+So in the below parts, we compare the performance difference between the function calls in for loops and the for for loops inside the functions. 
+
 ### > Simulation Results：
 #### 。SYNTH Results
 
