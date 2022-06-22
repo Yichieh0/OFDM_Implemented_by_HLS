@@ -11,8 +11,8 @@ Orthogonal Frequency Division Multiplexing (OFDM) is a multiplexing technology w
 In wireless communication system, multipath and fading noise are the two main purposes we would like to solve. We can’t control how signal transmitted from transmitter to receiver in wireless system. Each path may arrived receiver through different channel fading gain and wastes different time. This may cause some difficulties for receiver to recover the transmit data. Due to the reason we mentioned, we tried to construct a system based on OFDM which have the ability to conquer all of the non-ideal effects.
 
 ![image](https://user-images.githubusercontent.com/102524142/174599731-0d55d8b7-5141-48d4-a452-58ff461b25d4.png)
-![image](https://user-images.githubusercontent.com/102524142/175022005-de31933d-6252-42e9-bb7f-302b77c8725e.png)
 
+![image](https://user-images.githubusercontent.com/102524142/175023096-8bbf17da-9eb5-48ad-8b11-47b6a3694bfb.png)
 
 ### > Project Scope
  #### 。System Architecture：
