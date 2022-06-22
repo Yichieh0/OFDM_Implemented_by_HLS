@@ -122,7 +122,9 @@ Obviously, we can found that after optimization the system without II Violation 
 
 #### 。Throughput
 370.6449 frame/sec
+
 394.37K pixel/sec
+
 3.1549M bit/sec
 
 ### >Conclusion
