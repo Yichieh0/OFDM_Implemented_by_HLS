@@ -38,7 +38,7 @@ In wireless communication system, multipath and fading noise are the two main pu
 
 1. Utilization :
 
-下兩張表分別為優化前後的硬體資源使用。
+The tables below is the hardware resources utilization comparison
 
  - With II Violation : 
  
