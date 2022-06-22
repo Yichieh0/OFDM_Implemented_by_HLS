@@ -35,11 +35,16 @@ The most important thing we should mentioned is that if we have a function call 
 So in the below parts, we compare the performance difference between the function calls in for loops and the for for loops inside the functions. 
 
 ### > Simulation Results：
+#### > Optimization Issues：
+The most important thing we should mentioned is that if we have a function call in a for loop, the tool will recreate the function structure every iterations, this will lead to worse II.
+
+So in the below parts, we compared the performance difference between the function calls in for loops and the for for loops inside the functions. 
+
 #### 。SYNTH Results
 
-After cloning the whole project, we can use the below command to performthe project and check the performance : 
+After cloning the whole project, we can use the below command to perform the project and check the performance (you should first change your folder into myfix4_dataflow_final/) : 
 
-make run CSIM=1 CSYNTH=1 COSIM=1
+ make run CSIM=1 CSYNTH=1 COSIM=1
 
 1. Utilization :
 
@@ -97,12 +102,17 @@ Obviously, we can found that after optimization the system without II Violation 
 #### 。Picture Recovery 
 
 - 3-tap channel with pilot interval=8
+![image](https://user-images.githubusercontent.com/102524142/175021346-5e7c0751-6559-4d34-b75c-d23fff86759e.png)
 
 - 6-tap channel with pilot interval=8
+![image](https://user-images.githubusercontent.com/102524142/175021327-1876134e-678f-40b2-aadc-74678e30de7e.png)
 
 - 6-tap channel with pilot interval=4
+![image](https://user-images.githubusercontent.com/102524142/175021339-3138710e-7ab5-4a06-ad6f-561a57026415.png)
+
 
 #### 。Error Rate Comparison
+![image](https://user-images.githubusercontent.com/102524142/175021080-93ee1d97-8738-43d7-bd6d-479e5d4d9076.png)
 
 
 
