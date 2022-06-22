@@ -2,11 +2,7 @@
 
 ### > Motivation：
 
-正交分頻多工(Orthogonal Frequency-Division Multiplexing , OFDM) 
-
-被廣泛地運用在通訊系統中，利用將子載波互相正交使得不同 carrier 的訊號在頻寬上可以交疊而不互相干擾，
-相較於只使用 single-carrier 可以大量節省頻寬，藉此來提高throughput，並由於其 narrowband 的特性，
-可以使用較為簡單的 one-tap equalizer 來進行通道補償，有效的降低系統計算複雜度。
+Orthogonal Frequency Division Multiplexing (OFDM) is a multiplexing technology which is widely used in 4G and 5G. The system utilize OFDM’s orthogonal property, we can set subcarriers closer in the frequency domain. Compared with single carrier system, we can transmit more data into same bandwidth. In this way, we can reach higher transmit rate. And due to its narrowband property, we can use a one-tap equalizer for channel compensation, which can reduce the complexity a lot. In this project, we tried to construct an end-to-end OFDM communication system by HLS.
 
 ![image](https://user-images.githubusercontent.com/102524142/174599266-031b3a6c-852f-442a-858c-c50b011f02cd.png)
 
