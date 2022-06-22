@@ -90,6 +90,15 @@ input data size = 1064(~1024, it close to the size of an 32x32 pixels picture)
 
 Obviously, we can found that after optimization the system without II Violation hava lower emulation time than the system with II Violation.
 
+#### 。Picture Recovery 
+
+- 3-tap channel with pilot interval=8
+
+- 6-tap channel with pilot interval=8
+
+- 6-tap channel with pilot interval=4
+
+#### 。Error Rate Comparison
 
 
 
