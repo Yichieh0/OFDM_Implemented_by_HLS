@@ -38,7 +38,7 @@ In wireless communication system, multipath and fading noise are the two main pu
 
 ### > Optimization Issues：
 The most important thing we should mentioned is that if we have a function call in a for loop, the tool will recreate the function structure every iterations, this will lead to worse II.
-So in the below parts, we compare the performance difference between the function calls in for loops and the for for loops inside the functions. 
+So in the below parts, we compare the performance difference between the version with function calls in for loops and the other version with for loops inside the functions. 
 
 ### > Simulation Results：
 #### 。SYNTH Results
