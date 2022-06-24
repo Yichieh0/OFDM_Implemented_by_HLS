@@ -129,13 +129,19 @@ In this project we successfully constructed the OFDM based communication system.
 ### Host Usage
 1. The source code is found in the following directory
 
-  
+```
+./OFDM_Implemented_by_HLS/with_II_violation_host/host/streaming_free_running_k2k/
+```
+2. Command to generate the design for specified Target and Shell
 
+```
+make all TARGET=<sw_emu/hw_emu/hw>
+```
 
-
-
-
-
+3. Command to run application in emulation
+```
+make run TARGET=<sw_emu/hw_emu/hw>
+```
 
 
 
