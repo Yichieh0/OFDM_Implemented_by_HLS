@@ -126,12 +126,19 @@ Obviously, we can found that after optimization the system without II Violation 
 In this project we successfully constructed the OFDM based communication system. And we also avoid all of the II violations in the system.
 
 
-### Host Usage
+## Host Usage
 1. The source code is found in the following directory
 
+- with_II_violation_host
 ```
 ./OFDM_Implemented_by_HLS/with_II_violation_host/host/streaming_free_running_k2k/
 ```
+
+- without_II_violation_host
+```
+./OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/
+```
+
 2. Command to generate the design for specified Target and Shell
 
 ```
