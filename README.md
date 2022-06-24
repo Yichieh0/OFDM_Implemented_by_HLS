@@ -126,7 +126,10 @@ Obviously, we can found that after optimization the system without II Violation 
 In this project we successfully constructed the OFDM based communication system. And we also avoid all of the II violations in the system.
 
 
+### Host Usage
+1. The source code is found in the following directory
 
+  
 
 
 
