@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <packageLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_uitodp_32ns_64_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:27.527+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_fsqrt_32ns_32ns_32_6_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:26.711+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_fpext_32ns_64_1_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:25.961+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_fmul_32ns_32ns_32_2_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:25.231+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_fmul_32ns_32ns_32_2_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:24.027+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_flog_32ns_32ns_32_5_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:23.176+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_fdiv_32ns_32ns_32_6_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:22.315+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_fcmp_32ns_32ns_1_1_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:21.542+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_faddfsub_32ns_32ns_32_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:20.768+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_dsqrt_64ns_64ns_64_10_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:20.033+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'master_top_ddiv_64ns_64ns_64_11_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:26:19.236+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find design file 'rand_func.cpp'" projectName="prj_impulse_test.prj" solutionName="solution1" date="2022-07-25T15:24:29.791+0800" type="Warning"/>
+      </packageLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

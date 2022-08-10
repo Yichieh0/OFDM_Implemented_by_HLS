@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.1852177527">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.1852177527" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="a.out" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.1852177527" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
+                    					
+                    <folderInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527." name="/" resourcePath="">
+                        						
+                        <toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.927831363" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
+                            							
+                            <targetPlatform binaryParser="org.eclipse.cdt.core.PE;org.eclipse.cdt.core.GNU_ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.832959876" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+                            							
+                            <builder buildPath="${workspace_loc:/prj_impulse_test.prj}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1143536069" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.archiver.base.1419089217" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
+                                								
+                                <option id="gnu.cpp.compiler.exe.debug.option.optimization.level.326996522" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+                                								
+                                <option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.exe.debug.option.debugging.level.1868298995" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.630866772" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.preprocessor.def.61041611" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="AESL_TB"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="__llvm__"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="__llvm__"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1364185844" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.901252317" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.1605917775" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                								
+                                <option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.exe.debug.option.debugging.level.1764179918" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.500382080" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.preprocessor.def.symbols.602543726" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="AESL_TB"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="__llvm__"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="__llvm__"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1485955920" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.918219616" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.paths.419722195" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/lib"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.link.option.libs.68050656" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
+                                								
+                                <option id="gnu.c.link.option.ldflags.1949566809" name="Linker flags" superClass="gnu.c.link.option.ldflags"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.124047805" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.paths.656574618" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/lib"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.libs.283490512" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
+                                								
+                                <option id="gnu.cpp.link.option.flags.1465659914" name="Linker flags" superClass="gnu.cpp.link.option.flags"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1118752148" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.assembler.exe.debug.2099803336" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug">
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.assembler.input.90480151" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.283831863" name="pic_data.txt" rcbsApplicability="disable" resourcePath="testbench/pic_data.txt" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.387297551" name="main.cpp" rcbsApplicability="disable" resourcePath="testbench/main.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1651612060">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1651612060" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.986773232" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1329855443" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1963980972" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1114037975" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.147903199" name="out.txt" rcbsApplicability="disable" resourcePath="testbench/out.txt" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.186015305" name="AWGN.h" rcbsApplicability="disable" resourcePath="source/AWGN.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1896573000" name="Rx.cpp" rcbsApplicability="disable" resourcePath="source/Rx.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.355792223">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.355792223" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.878406705" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.694210967" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.400225989" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2077054462" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.145366413" name="Rx.h" rcbsApplicability="disable" resourcePath="source/Rx.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.786577868" name="stream2master_output_QAM.h" rcbsApplicability="disable" resourcePath="source/stream2master_output_QAM.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1933628002" name="data_path.hpp" rcbsApplicability="disable" resourcePath="source/data_path.hpp" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1015222232" name="Tx.cpp" rcbsApplicability="disable" resourcePath="source/Tx.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.284273041">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.284273041" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1988140128" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.910117339" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.940880363" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.39542124" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.4486174" name="equalizer.hpp" rcbsApplicability="disable" resourcePath="source/equalizer.hpp" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1814155129" name="rand.cpp" rcbsApplicability="disable" resourcePath="source/rand.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.396816751">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.396816751" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.49842749" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.68624680" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/code/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/ext/dcmt/dcmt/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1190073472" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1433016950" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1093528063" name="master2stream.h" rcbsApplicability="disable" resourcePath="source/master2stream.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.935119579" name="pilot_insertion.cpp" rcbsApplicability="disable" resourcePath="source/pilot_insertion.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.103911120">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.103911120" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1092130606" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.971546101" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1381519348" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.845654026" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1855145170" name="Cp_insertion.h" rcbsApplicability="disable" resourcePath="source/Cp_insertion.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1964016103" name="equalizer.cpp" rcbsApplicability="disable" resourcePath="source/equalizer.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1406225382">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1406225382" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.252097248" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1681583224" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1571142976" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.55512889" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1376691057" name="data2pic.cpp" rcbsApplicability="disable" resourcePath="source/data2pic.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.73362292">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.73362292" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.314669705" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.64969833" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/code/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/ext/dcmt/dcmt/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1042304411" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1188899669" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.442757283" name="master2stream.cpp" rcbsApplicability="disable" resourcePath="source/master2stream.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.629505058">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.629505058" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.2137676042" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.842166401" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1265279303" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1565188800" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.88529069" name="stream2master_output_QAM.cpp" rcbsApplicability="disable" resourcePath="source/stream2master_output_QAM.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1796594326">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1796594326" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.532983206" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1659934555" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1768470156" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.350298427" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.846713621" name="top_module.hpp" rcbsApplicability="disable" resourcePath="source/top_module.hpp" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1739607622" name="AWGN.cpp" rcbsApplicability="disable" resourcePath="source/AWGN.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1418022796">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1418022796" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.2122509275" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1212942363" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.273154783" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.31252280" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1519456248" name="master_top.h" rcbsApplicability="disable" resourcePath="source/master_top.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.407938083" name="qam.hpp" rcbsApplicability="disable" resourcePath="source/qam.hpp" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.671947223" name="fft.cpp" rcbsApplicability="disable" resourcePath="source/fft.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1874532492">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1874532492" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.68555967" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.35823386" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.61884857" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.386909240" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.631579205" name="data2pic.h" rcbsApplicability="disable" resourcePath="source/data2pic.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1699964582" name="pixl_to_symbol.h" rcbsApplicability="disable" resourcePath="source/pixl_to_symbol.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1524228224" name="channel_gen.h" rcbsApplicability="disable" resourcePath="source/channel_gen.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.980207036" name="fft.hpp" rcbsApplicability="disable" resourcePath="source/fft.hpp" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.2078541102" name="qam.cpp" rcbsApplicability="disable" resourcePath="source/qam.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.222633892">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.222633892" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.470957820" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.660061555" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.2130058075" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.687660265" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.76560402" name="data_out_main.cpp" rcbsApplicability="disable" resourcePath="source/data_out_main.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1970025908">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1970025908" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.154716268" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.197371708" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/code/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/ext/dcmt/dcmt/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.2039990941" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.629319088" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.2088057572" name="master_top.cpp" rcbsApplicability="disable" resourcePath="source/master_top.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1011044596">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1011044596" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.466431816" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.639701148" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.9939354" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.388537540" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1707989072" name="Cp_insertion.cpp" rcbsApplicability="disable" resourcePath="source/Cp_insertion.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1443943126">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1443943126" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1869007466" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1401689906" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.319925969" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2078939598" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.48262111" name="channel_gen.cpp" rcbsApplicability="disable" resourcePath="source/channel_gen.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.977142471">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.977142471" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1703418944" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1858162650" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/code/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/ext/dcmt/dcmt/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1454666932" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1188130532" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1826728727" name="pilot_insertion.h" rcbsApplicability="disable" resourcePath="source/pilot_insertion.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1832759862" name="pixl_to_symbol.cpp" rcbsApplicability="disable" resourcePath="source/pixl_to_symbol.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.801853430">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.801853430" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.106380781" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1964163047" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.2066505428" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.653720492" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.902343320" name="deQAM.cpp" rcbsApplicability="disable" resourcePath="source/deQAM.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.139268128">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.139268128" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1864399243" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.479125800" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/code/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/ext/dcmt/dcmt/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1214672203" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.975839757" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.795577733" name="Tx.h" rcbsApplicability="disable" resourcePath="source/Tx.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.271331686" name="stream2master.h" rcbsApplicability="disable" resourcePath="source/stream2master.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.282335449" name="stream2master.cpp" rcbsApplicability="disable" resourcePath="source/stream2master.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.996237468">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.996237468" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.327713070" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1738430450" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.949399391" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.352075926" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1852177527.1538043966" name="top_module.cpp" rcbsApplicability="disable" resourcePath="source/top_module.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1987041962">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448.1987041962" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1353677868" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.574025164" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.619322984" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.962799482" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding=".apc|.settings|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="cdt.managedbuild.config.gnu.exe.release.1186857593">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.1186857593" moduleId="org.eclipse.cdt.core.settings" name="Release">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="a.out" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.1186857593" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
+                    					
+                    <folderInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593." name="/" resourcePath="">
+                        						
+                        <toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.796581503" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+                            							
+                            <targetPlatform binaryParser="org.eclipse.cdt.core.PE;org.eclipse.cdt.core.GNU_ELF" id="cdt.managedbuild.target.gnu.platform.exe.release.212901849" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
+                            							
+                            <builder buildPath="${workspace_loc:/prj_impulse_test.prj}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.167160805" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.archiver.base.251615177" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+                                								
+                                <option id="gnu.cpp.compiler.exe.release.option.optimization.level.2024353424" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+                                								
+                                <option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.exe.release.option.debugging.level.132266094" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.881470935" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.245317702" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.791908042" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.2015883433" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                								
+                                <option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.exe.release.option.debugging.level.772590898" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.848544593" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1342632014" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1518366472" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.paths.550077756" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/lib"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.link.option.libs.1455783590" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
+                                								
+                                <option id="gnu.c.link.option.ldflags.103246104" name="Linker flags" superClass="gnu.c.link.option.ldflags"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.1571476596" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.paths.1494614638" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/lib"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.libs.889802194" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
+                                								
+                                <option id="gnu.cpp.link.option.flags.225096027" name="Linker flags" superClass="gnu.cpp.link.option.flags"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.744919227" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.1238632304" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.assembler.input.194549196" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1809680087" name="pic_data.txt" rcbsApplicability="disable" resourcePath="testbench/pic_data.txt" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1351767681" name="main.cpp" rcbsApplicability="disable" resourcePath="testbench/main.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.852937494">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.852937494" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1996691133" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.2130314537" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1880064883" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1991511502" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.44559436" name="out.txt" rcbsApplicability="disable" resourcePath="testbench/out.txt" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.680477369" name="AWGN.h" rcbsApplicability="disable" resourcePath="source/AWGN.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.863125438" name="Rx.cpp" rcbsApplicability="disable" resourcePath="source/Rx.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1772273145">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1772273145" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.546861281" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.2121680571" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.2129611214" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1982421210" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.507159314" name="Rx.h" rcbsApplicability="disable" resourcePath="source/Rx.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1874791725" name="stream2master_output_QAM.h" rcbsApplicability="disable" resourcePath="source/stream2master_output_QAM.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1999247887" name="data_path.hpp" rcbsApplicability="disable" resourcePath="source/data_path.hpp" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1881940062" name="Tx.cpp" rcbsApplicability="disable" resourcePath="source/Tx.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1019382733">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1019382733" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.656247198" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1977524706" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1946067209" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1320799533" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.766425926" name="equalizer.hpp" rcbsApplicability="disable" resourcePath="source/equalizer.hpp" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.286476704" name="rand.cpp" rcbsApplicability="disable" resourcePath="source/rand.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1508386938">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1508386938" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1703335719" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.471731936" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/code/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/ext/dcmt/dcmt/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1656095945" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1866217710" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.692299801" name="master2stream.h" rcbsApplicability="disable" resourcePath="source/master2stream.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1909431342" name="pilot_insertion.cpp" rcbsApplicability="disable" resourcePath="source/pilot_insertion.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.814158596">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.814158596" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.696628284" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.786203025" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.16214335" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1439875393" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1328995905" name="Cp_insertion.h" rcbsApplicability="disable" resourcePath="source/Cp_insertion.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.147935062" name="equalizer.cpp" rcbsApplicability="disable" resourcePath="source/equalizer.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1725954912">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1725954912" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1979426914" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.422052070" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.2071829792" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1562612906" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1064726656" name="data2pic.cpp" rcbsApplicability="disable" resourcePath="source/data2pic.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1698896989">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1698896989" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1164237752" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.844779478" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/code/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/ext/dcmt/dcmt/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1772518675" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1360315188" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.711249509" name="master2stream.cpp" rcbsApplicability="disable" resourcePath="source/master2stream.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.379164581">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.379164581" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1991604240" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1518502715" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.46604356" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2075572146" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.852570746" name="stream2master_output_QAM.cpp" rcbsApplicability="disable" resourcePath="source/stream2master_output_QAM.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.2024436823">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.2024436823" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1523350283" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1835036755" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1753606007" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.429635962" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1272010039" name="top_module.hpp" rcbsApplicability="disable" resourcePath="source/top_module.hpp" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1844958146" name="AWGN.cpp" rcbsApplicability="disable" resourcePath="source/AWGN.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.889306129">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.889306129" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.2081845641" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1747004079" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.424316163" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1537026155" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1256705640" name="master_top.h" rcbsApplicability="disable" resourcePath="source/master_top.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1617205285" name="qam.hpp" rcbsApplicability="disable" resourcePath="source/qam.hpp" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.852280590" name="fft.cpp" rcbsApplicability="disable" resourcePath="source/fft.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.317305372">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.317305372" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1850761710" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1610321877" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1690847260" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.453052160" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1231891515" name="data2pic.h" rcbsApplicability="disable" resourcePath="source/data2pic.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1779231661" name="pixl_to_symbol.h" rcbsApplicability="disable" resourcePath="source/pixl_to_symbol.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.425883001" name="channel_gen.h" rcbsApplicability="disable" resourcePath="source/channel_gen.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.685697027" name="fft.hpp" rcbsApplicability="disable" resourcePath="source/fft.hpp" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.2122984884" name="qam.cpp" rcbsApplicability="disable" resourcePath="source/qam.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1655460985">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1655460985" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1809094367" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.435544958" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.511649161" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.101260997" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.2077823175" name="data_out_main.cpp" rcbsApplicability="disable" resourcePath="source/data_out_main.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1096091863">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1096091863" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1140964114" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.210957676" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/code/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/ext/dcmt/dcmt/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1558921601" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1773449137" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.679601729" name="master_top.cpp" rcbsApplicability="disable" resourcePath="source/master_top.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.357191439">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.357191439" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.330235975" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.2089749396" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1504187856" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.105421091" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.539097414" name="Cp_insertion.cpp" rcbsApplicability="disable" resourcePath="source/Cp_insertion.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1172998529">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1172998529" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1364040340" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1994530234" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1386190670" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1695695356" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.988782963" name="channel_gen.cpp" rcbsApplicability="disable" resourcePath="source/channel_gen.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.16822615">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.16822615" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1332608833" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.2054646496" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/code/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/ext/dcmt/dcmt/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1729148964" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.347260702" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1314421523" name="pilot_insertion.h" rcbsApplicability="disable" resourcePath="source/pilot_insertion.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1286766148" name="pixl_to_symbol.cpp" rcbsApplicability="disable" resourcePath="source/pixl_to_symbol.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.705583701">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.705583701" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1659758587" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1656188379" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.58363009" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1574509488" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1802027090" name="deQAM.cpp" rcbsApplicability="disable" resourcePath="source/deQAM.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1516602244">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1516602244" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.343112805" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1524179022" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/code/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/HLS_Final_Channel_Model/ext/dcmt/dcmt/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.272945583" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1124974923" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1380925880" name="Tx.h" rcbsApplicability="disable" resourcePath="source/Tx.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1549815547" name="stream2master.h" rcbsApplicability="disable" resourcePath="source/stream2master.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1153330355" name="stream2master.cpp" rcbsApplicability="disable" resourcePath="source/stream2master.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.2012812718">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.2012812718" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.473334736" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.2130419346" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.16309870" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.539806207" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186857593.1638604805" name="top_module.cpp" rcbsApplicability="disable" resourcePath="source/top_module.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1152786015">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243.1152786015" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.349777721" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.104644681" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/include/hw/vitis_fft/fixed"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10"/>
+                                								
+                                <listOptionValue builtIn="false" value="/opt/Xilinx/Vitis_HLS/2021.2/lnx64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.386726511" name="Other flags" superClass="gnu.cpp.compiler.option.other.other"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1871521596" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding=".apc|.settings|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="prj_impulse_test.prj.cdt.managedbuild.target.gnu.exe.1298278123" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.1852177527;cdt.managedbuild.config.gnu.exe.debug.1852177527.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.617916448;cdt.managedbuild.tool.gnu.cpp.compiler.input.1364185844">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.1852177527;cdt.managedbuild.config.gnu.exe.debug.1852177527.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.901252317;cdt.managedbuild.tool.gnu.c.compiler.input.1485955920">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.1186857593;cdt.managedbuild.config.gnu.exe.release.1186857593.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.40942243;cdt.managedbuild.tool.gnu.cpp.compiler.input.245317702">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.1186857593;cdt.managedbuild.config.gnu.exe.release.1186857593.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.791908042;cdt.managedbuild.tool.gnu.c.compiler.input.1342632014">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    
+</cproject>

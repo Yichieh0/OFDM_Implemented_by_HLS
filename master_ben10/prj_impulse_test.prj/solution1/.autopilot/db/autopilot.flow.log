@@ -1,0 +1,51 @@
+INFO-FLOW: Workspace /users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/prj_impulse_test.prj/solution1 opened at Tue Jul 26 14:53:17 CST 2022
+Execute       send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute       get_config_interface -m_axi_latency 
+Execute       get_config_interface -m_axi_alignment_byte_size 
+Execute       get_config_interface -m_axi_max_widen_bitwidth 
+Execute       get_config_interface -default_interface 
+Execute       get_config_rtl -register_reset_num 
+Execute     set_part XCK26-SFVC784-2LV-C 
+INFO: [HLS 200-1510] Running: set_part XCK26-SFVC784-2LV-C 
+Execute       create_platform XCK26-SFVC784-2LV-C -board  
+DBG:HLSDevice: Trying to load device library: /opt/Xilinx/Vitis_HLS/2021.2/lib/lnx64.o/librdi_hlsvwrap.so
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /opt/Xilinx/Vivado/2021.2/data/parts/arch.xml
+DBG:HLSDevice: init success
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/DSP48/zynquplus_dsp48e2.hlp 
+INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
+Command       create_platform done; 1.69 sec.
+Execute       source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/interface/saxilite.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/interface/maxi.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/ip/util.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2021.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.12 sec.
+Execute       ap_part_info -name xck26-sfvc784-2LV-c -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 1.83 sec.
+Execute     create_clock -period 20 
+INFO: [HLS 200-1510] Running: create_clock -period 20 
+Execute       ap_set_clock -name default -period 20 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 20ns.
+Execute     csim_design 
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+Execute       ap_part_info -name xck26-sfvc784-2LV-c -data info 
+Execute       source run_sim.tcl 
+Command       ap_source done; 0.9 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command     csim_design done; 55.77 sec.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 47.87 seconds. CPU system time: 4.75 seconds. Elapsed time: 55.77 seconds; current allocated memory: -937.109 MB.
+Execute     cleanup_all 

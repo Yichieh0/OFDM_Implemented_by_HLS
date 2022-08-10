@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="data2pic.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/deQAM_to_pixl/data2pic.h"/>
+    <originFiles name="data2pic.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/deQAM_to_pixl/data2pic.cpp"/>
+    <originFiles name="data_out_main.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/deQAM_to_pixl/data_out_main.cpp"/>
+    <originFiles name="deQAM.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/deQAM_to_pixl/deQAM.cpp"/>
+    <originFiles name="channel_gen.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/channel_stream/channel_gen.h"/>
+    <originFiles name="channel_gen.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/channel_stream/channel_gen.cpp"/>
+    <originFiles name="rand_func.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/rand_func.cpp"/>
+    <originFiles name="rand.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/channel_stream/rand.cpp"/>
+    <originFiles name="qam.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/QAM/qam.cpp"/>
+    <originFiles name="qam.hpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/QAM/qam.hpp"/>
+    <originFiles name="fft.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/fft/fft.cpp"/>
+    <originFiles name="fft.hpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/fft/fft.hpp"/>
+    <originFiles name="pixl_to_symbol.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/picture_to_symbol/pixl_to_symbol.cpp"/>
+    <originFiles name="pixl_to_symbol.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/picture_to_symbol/pixl_to_symbol.h"/>
+    <originFiles name="top_module.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/top_module.cpp"/>
+    <originFiles name="top_module.hpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/top_module.hpp"/>
+    <originFiles name="pilot_insertion.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/pilot_insertion/pilot_insertion.cpp"/>
+    <originFiles name="pilot_insertion.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/pilot_insertion/pilot_insertion.h"/>
+    <originFiles name="Cp_insertion.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/CP_insertion/Cp_insertion.cpp"/>
+    <originFiles name="Cp_insertion.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/CP_insertion/Cp_insertion.h"/>
+    <originFiles name="Tx.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/Tx.cpp"/>
+    <originFiles name="Tx.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/Tx.h"/>
+    <originFiles name="AWGN.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/AWGN.cpp"/>
+    <originFiles name="AWGN.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/AWGN.h"/>
+    <originFiles name="Rx.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/Rx.cpp"/>
+    <originFiles name="Rx.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/Rx.h"/>
+    <originFiles name="data_path.hpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/data_path.hpp"/>
+    <originFiles name="equalizer.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/equalizer/equalizer.cpp"/>
+    <originFiles name="equalizer.hpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/equalizer/equalizer.hpp"/>
+    <originFiles name="master_top.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/master_top.cpp"/>
+    <originFiles name="master_top.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/master_top.h"/>
+    <originFiles name="stream2master.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/master_mem/stream2master.cpp"/>
+    <originFiles name="stream2master.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/master_mem/stream2master.h"/>
+    <originFiles name="stream2master_output_QAM.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/master_mem/stream2master_output_QAM.cpp"/>
+    <originFiles name="stream2master_output_QAM.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/master_mem/stream2master_output_QAM.h"/>
+    <originFiles name="master2stream.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/master_mem/master2stream.cpp"/>
+    <originFiles name="master2stream.h" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/master_mem/master2stream.h"/>
+  </source>
+  <testbench>
+    <originFiles name="main.cpp" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/main.cpp"/>
+    <originFiles name="pic_data.txt" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/picture_txt/pic_data.txt"/>
+    <originFiles name="out.txt" path="/users/course/2022S/HLS17000000/g110064539/OFDM_Implemented_by_HLS/without_II_violation_host/host/streaming_free_running_k2k/src/dsp/L1/examples/master_ben10/src/output_result/out.txt"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
